@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fametro Forms</title>
+	</head>
+	<body>
+		<div class="imagemDeFundo">
+			<section class="cabecalho">
+				<h1 id="title">InovaTech Forms</h1>
+	      		<p id="description">Pesquisa de satisfação do InovaTech</p>
+			</section>
+		    <main>
+		      <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+					<fieldset>
+						<label id ="name-label" for="name"> Nome 
+							<input id="name" name = "name" type="text" placeholder="Seu nome aqui" required/>
+						</label>
+						<label id="email-label" for="email"> Email
+							<input id="email" name="email" type="email" placeholder="email@example.com"required/>
+						</label>
+						<label id="number-label" for="number"> Idade
+							<input id="number" name="number" type="number" min="13" max = "120" placeholder="15"required/>
+						</label>
+					</fieldset>
+					<fieldset>
+						<label for = "dropdown">O quão satisfeito você ficou ao vir para o InovaTech?
+							<select id="dropdown" name="dropdown">
+								<option value="">Selecione uma opção</option>
+								<option value="1">Muito satisfeito</option>
+								<option value="2">Satisfeito</option>
+								<option value="3">Pouco satisfeito</option>	
+								<option value="4">Nem um pouco satisfeito</option>
+							</select>
+						</label>
+					</fieldset>
+					<fieldset> Você indicaria esse evento para um amigo?
+						<label for="comCerteza"><input class="inline" id="comCerteza" name="satisfacao" type="radio"/> Com certeza</label>
+						<label for="talvez"><input class="inline" id="talvez" name="satisfacao" type="radio"/> Talvez</label>
+						<label for="naoIndicaria"><input class="inline" id="naoIndicaria" name="satisfacao" type="radio"/> Não indicaria</label>
+					</fieldset>
+					<fieldset> Quais projetos você visitou?
+						<label for="projetos"><input class="inline "id="projetos" name="projeto" type="checkbox" value="projetoUm"/> Projeto 1</label>
+						<label for="projetos"><input class="inline" id="projetos" name="projeto" type="checkbox" value="projetoDois"/> Projeto 2</label>
+						<label for="projetos"><input class="inline" id="projetos" name="projeto" type="checkbox" value="projetoTres"/> Projeto 3</label>
+					</fieldset>
+					<fieldset> Comentários e sugestões
+						<label for="sugestoes"><textarea id="sugestoes" name="sugestoes" rows="6" cols="60" placeholder="Comentários e sugestões aqui..."></textarea></label>
+					</fieldset>
+					<fieldset for ="submit">
+						<input class ="submit" id="submit" type="submit" value="Submit"/>
+					</fieldset>
+		      </form>
+		    </main>
+		</div>
+	</body>
+</html>

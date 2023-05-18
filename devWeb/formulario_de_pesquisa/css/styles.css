@@ -1,0 +1,54 @@
+body{
+	width:100%;
+	height:100vh;
+	margin:unset;
+	background:url("../images/alunos-de-tiro-medio-com-laptop.jpg");
+	background-size:cover ;
+	color:rgb(244,238,224);
+	font-size:18px;
+}
+
+h1,p{
+	margin:1em auto;
+	text-align:center;
+	font-size:1.5rem;
+}
+
+form{
+	width:60vw;
+	max-width:500px;
+	min-width:300px;
+	margin:0 auto;
+	background-color: rgba(79,69,87,0.8);
+	border-radius:10px;
+}
+
+fieldset{
+	border:none;
+	margin:1.5em 0;
+}
+
+/*Utilizando o block eu consigo fazer com que os inputs fiquem um abaixo do outro*/
+label{
+	display:block;
+	margin: 0.5rem 0;
+}
+
+/*Estou fazendo o meu campo de entrada ocupar todo o espaço para que o texto fique acima do input*/
+input,select,textarea{
+	width:96%;
+	margin:0 0.5em;
+	border-radius:5px;
+}
+
+.inline{
+	width:unset;
+	margin:0 0.5em 0 0;
+	vertical-align:middle;
+}
+
+.submit{
+	border:none;
+	border-radius:10px;
+	margin-bottom:2.5rem;
+}
