@@ -1,0 +1,35 @@
+
+Estrutura de Repetição.
+1) Desenvolva os algoritmos utilizando a estrutura Enquanto (WHILE) e Repita (DO WHILE):
+a) Receber vários números do teclado e informar se ele é divisível por 10, por 5, por 2 ou se não é divisível por nenhum destes.
+
+b) Escrever um programa que receba vários números inteiros no teclado. E no final imprimir a média dos números múltiplos de 3. Para sair digitar 0(zero).
+
+c) Solicitar um número entre 1 e 4. Se a pessoas digitar um número diferente, mostrar a mensagem "entrada inválida" e solicitar o número novamente. Se digitar correto mostrar o número digitado.
+
+d) Ler vários números e informar quantos números entre 100 e 200 foram digitados. Quando o valor zero(0) for lido, o algoritmo deverá cessar sua execução.
+
+e) Entrar com números e imprimir o quadrado de cada número até entrar um número múltiplo de 6 que deverá ter seu quadrado também impresso.
+
+f)Entrar com a idade de várias pessoas e imprimir:
+ Total de pessoas com menos de 21 anos;
+ Total de pessoas com mais de 50 anos.
+ A somatória das idades.
+
+g) Elaborar um programa que efetue a leitura sucessiva de valores numéricos e apresente no final o total do somatório, a média e o total de valores lidos. O programa deve fazer as leituras dos valores enquanto o usuário estiver fornecendo valores positivos. Ou seja, o programa deve parar quando o
+usuário fornecer um valor negativo.
+
+h) Entrar com o número da conta e o saldo de várias pessoas. Imprimir todas as contas, os respectivos saldos e uma das mensagens: positivo/negativo. Ao final, o percentual de pessoas com saldo negativo. O algoritmo acaba quando se digita um número negativo para a conta.
+
+i) Criar um algoritmo receba a idade e o estado civil (C-casado, S-solteiro, V-viuvo e D-desquitado ou separado) de várias pessoas. Calcule e imprima.
+ A quantidade de pessoas casadas;
+ A quantidade de pessoas solteiras;
+ A média das idades da pessoas viúvas;
+ A porcentagem de pessoas desquitadas ou separadas dentre todas as pessoas analisadas.
+
+j) Os alunos de informática tiveram cinco provas: 1,2,3,4 e 5. Criar um algoritmo que imprima:
+ Nome dos que foram aprovados em todas as matérias;
+ Nome dos alunos aprovados nas matérias 1 e 4;
+ A porcentagem dos aprovados na matéria 3.
+Obs: Considere aprovado com nota >=7,0.
+
