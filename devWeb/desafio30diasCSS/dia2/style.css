@@ -1,0 +1,45 @@
+body{
+    height:100vh;
+}
+
+div{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+    position: absolute;
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    background: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.frase{
+    border: solid;
+    border-color: #eee;
+}
+
+.carregamento{
+    animation: loop 1s linear infinite;
+    box-shadow: 0 3px #262626;
+}
+
+@keyframes loop{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
